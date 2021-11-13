@@ -1,20 +1,20 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "22b6b71c8bd7f16027da",
+  "hash": "1705d0f5210809a31f6c",
   "publicPath": "/static/",
   "outputPath": "/home/max/Dokumente/coding/IsraelAustausch/frontendPWA/build/static",
   "assetsByChunkName": {
-    "frontendpwa": "frontendpwa.module.js",
-    "list": [
-      "list.module.js",
-      "list.c503caaeb54bfeeac32d.hot-update.js"
-    ]
+    "frontendpwa": [
+      "frontendpwa.module.js",
+      "frontendpwa.7356bd946851fbb4156b.hot-update.js"
+    ],
+    "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "c503caaeb54bfeeac32d.hot-update.json",
-      "size": 46,
+      "name": "7356bd946851fbb4156b.hot-update.json",
+      "size": 53,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -24,8 +24,23 @@
       "emitted": false
     },
     {
+      "name": "frontendpwa.7356bd946851fbb4156b.hot-update.js",
+      "size": 3902,
+      "chunks": [
+        "frontendpwa"
+      ],
+      "chunkNames": [
+        "frontendpwa"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "frontendpwa.module.js",
-      "size": 9121547,
+      "size": 9119041,
       "chunks": [
         "frontendpwa"
       ],
@@ -33,21 +48,6 @@
         "frontendpwa"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "list.c503caaeb54bfeeac32d.hot-update.js",
-      "size": 6828,
-      "chunks": [
-        "list"
-      ],
-      "chunkNames": [
-        "list"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -70,7 +70,8 @@
         "frontendpwa"
       ],
       "assets": [
-        "frontendpwa.module.js"
+        "frontendpwa.module.js",
+        "frontendpwa.7356bd946851fbb4156b.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -80,8 +81,7 @@
         "list"
       ],
       "assets": [
-        "list.module.js",
-        "list.c503caaeb54bfeeac32d.hot-update.js"
+        "list.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -92,14 +92,14 @@
     {
       "id": "frontendpwa",
       "files": [
-        "frontendpwa.module.js"
+        "frontendpwa.module.js",
+        "frontendpwa.7356bd946851fbb4156b.hot-update.js"
       ]
     },
     {
       "id": "list",
       "files": [
-        "list.module.js",
-        "list.c503caaeb54bfeeac32d.hot-update.js"
+        "list.module.js"
       ]
     }
   ]
