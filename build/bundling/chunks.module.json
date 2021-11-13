@@ -1,0 +1,106 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "22b6b71c8bd7f16027da",
+  "publicPath": "/static/",
+  "outputPath": "/home/max/Dokumente/coding/IsraelAustausch/frontendPWA/build/static",
+  "assetsByChunkName": {
+    "frontendpwa": "frontendpwa.module.js",
+    "list": [
+      "list.module.js",
+      "list.c503caaeb54bfeeac32d.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "c503caaeb54bfeeac32d.hot-update.json",
+      "size": 46,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontendpwa.module.js",
+      "size": 9121547,
+      "chunks": [
+        "frontendpwa"
+      ],
+      "chunkNames": [
+        "frontendpwa"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.c503caaeb54bfeeac32d.hot-update.js",
+      "size": 6828,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 18069,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "namedChunkGroups": {
+    "frontendpwa": {
+      "chunks": [
+        "frontendpwa"
+      ],
+      "assets": [
+        "frontendpwa.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js",
+        "list.c503caaeb54bfeeac32d.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "frontendpwa",
+      "files": [
+        "frontendpwa.module.js"
+      ]
+    },
+    {
+      "id": "list",
+      "files": [
+        "list.module.js",
+        "list.c503caaeb54bfeeac32d.hot-update.js"
+      ]
+    }
+  ]
+}

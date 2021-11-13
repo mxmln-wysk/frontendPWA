@@ -2,9 +2,7 @@ import { connect, styled } from "frontity";
 import Link from "../link";
 
 
-const Item = ({ state, item }) => {
-  const author = state.source.author[item.author];
-  const date = new Date(item.date);
+const Item = ({ item }) => {
 
   return (
     <article>

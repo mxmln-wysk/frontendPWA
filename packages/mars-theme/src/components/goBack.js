@@ -1,14 +1,10 @@
 import { connect, styled } from "frontity";
 import Link from "./link";
-import Nav from "./nav";
-import MobileMenu from "./menu";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 const GoBack = ({ state }) => {
-    // Get information about the current URL.
     const data = state.source.get(state.router.link);
-    // Get the data of the post.
     const post = state.source[data.type][data.id];
   console.log(post);
   return (
