@@ -6,10 +6,9 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-        <StyledLink link="/">
-          <Title>{state.frontity.title}</Title>
-        </StyledLink>
-        <Description>{state.frontity.description}</Description>
+        <img src="https://matzelt.com/Media/Atidna.png" />
+        <Title>{state.frontity.title}</Title>
+        <img src="https://matzelt.com/Media/Mieke-Meier.png" />
       </Container>
       <Nav />
     </>
@@ -22,16 +21,21 @@ const Container = styled.div`
   width: 848px;
   max-width: 100%;
   box-sizing: border-box;
-  padding: 24px;
+  padding: 0.5em;
   color: #fff;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
+  img{
+    height: 75px; 
+    width: auto;
+  }
 `;
 
 const Title = styled.h2`
   margin: 0;
   margin-bottom: 16px;
+  text-align: center;
 `;
 
 const Description = styled.h4`
