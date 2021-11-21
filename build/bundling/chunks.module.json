@@ -1,17 +1,46 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "5d631f8160fb531f742d",
+  "hash": "6dcf7395c79e1724c2d6",
   "publicPath": "/static/",
   "outputPath": "/home/max/Dokumente/coding/IsraelAustausch/frontendPWA/build/static",
   "assetsByChunkName": {
-    "frontendpwa": "frontendpwa.module.js",
+    "frontendpwa": [
+      "frontendpwa.module.js",
+      "frontendpwa.5d631f8160fb531f742d.hot-update.js"
+    ],
     "list": "list.module.js"
   },
   "assets": [
     {
+      "name": "5d631f8160fb531f742d.hot-update.json",
+      "size": 53,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontendpwa.5d631f8160fb531f742d.hot-update.js",
+      "size": 13062,
+      "chunks": [
+        "frontendpwa"
+      ],
+      "chunkNames": [
+        "frontendpwa"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "frontendpwa.module.js",
-      "size": 9117816,
+      "size": 9117822,
       "chunks": [
         "frontendpwa"
       ],
@@ -31,7 +60,7 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -41,7 +70,8 @@
         "frontendpwa"
       ],
       "assets": [
-        "frontendpwa.module.js"
+        "frontendpwa.module.js",
+        "frontendpwa.5d631f8160fb531f742d.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -62,7 +92,8 @@
     {
       "id": "frontendpwa",
       "files": [
-        "frontendpwa.module.js"
+        "frontendpwa.module.js",
+        "frontendpwa.5d631f8160fb531f742d.hot-update.js"
       ]
     },
     {

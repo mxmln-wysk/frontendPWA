@@ -6,9 +6,9 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-        <img src="https://matzelt.com/Media/Atidna.png" />
+        <img src="https://dormapfad.de/Media/Atidna.png" />
         <Title>{state.frontity.title}</Title>
-        <img src="https://matzelt.com/Media/Mieke-Meier.png" />
+        <img src="https://dormapfad.de/Media/Mieke-Meier.png" />
       </Container>
       <Nav />
     </>
