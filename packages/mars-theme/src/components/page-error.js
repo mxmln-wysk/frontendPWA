@@ -20,7 +20,7 @@ const Page404 = ({ state }) => {
   return (
       <Container>
         <GoBack />
-        <Title>{data.is404 ? title404 : title}</Title>
+        <Title>{title404}</Title>
         <Description>{description404}</Description>
       </Container>
   );

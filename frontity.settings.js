@@ -35,7 +35,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://matzelt.com/wordpress"
+          "url": "https://matzelt.com"
         }
       }
     },

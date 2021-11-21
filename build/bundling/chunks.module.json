@@ -1,7 +1,7 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "58ec0b9b9aa3cc7fcf4b",
+  "hash": "5d631f8160fb531f742d",
   "publicPath": "/static/",
   "outputPath": "/home/max/Dokumente/coding/IsraelAustausch/frontendPWA/build/static",
   "assetsByChunkName": {
@@ -11,7 +11,7 @@
   "assets": [
     {
       "name": "frontendpwa.module.js",
-      "size": 9118013,
+      "size": 9117816,
       "chunks": [
         "frontendpwa"
       ],
@@ -19,7 +19,7 @@
         "frontendpwa"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "list.module.js",
