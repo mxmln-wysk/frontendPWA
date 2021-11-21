@@ -19,7 +19,7 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
-        <link rel="manifest" href={`${state.source.api}/wp/v2/web-app-manifest`} />
+        <link rel="manifest" href={`${state.source.api}wp/v2/web-app-manifest`} />
       </Head>
 
       <Global styles={globalStyles} />
