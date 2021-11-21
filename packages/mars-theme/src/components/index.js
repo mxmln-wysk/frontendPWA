@@ -19,7 +19,7 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
-        <link rel="manifest" href={'./static/manifest.json'} />
+        <link rel="manifest" href={'https://dormapfad.de/Media/manifest.json'} />
       </Head>
 
       <Global styles={globalStyles} />
