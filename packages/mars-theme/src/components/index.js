@@ -12,12 +12,14 @@ const Theme = ({ state }) => {
   const data = state.source.get(state.router.link);
   console.log(data);
   console.log(data.isHome);
+
   return (
     <>
       <Title />
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
+        <link rel="manifest" href={'./static/manifest.json'} />
       </Head>
 
       <Global styles={globalStyles} />

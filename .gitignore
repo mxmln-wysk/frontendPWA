@@ -1,3 +1,7 @@
 .vercel
 node_modules
-build
+build/*
+!build/**/
+build/static/*
+!build/static/**/
+!build/static/manifest.json
