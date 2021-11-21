@@ -4,16 +4,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 const GoBack = ({ state }) => {
-    const data = state.source.get(state.router.link);
-    const post = state.source[data.type][data.id];
-  console.log(post);
+  let title = state.router.link.substring(1,9);
+
   return (
     <>
       <Container>
         <StyledLink link="/">
          <FontAwesomeIcon icon={faArrowLeft} color="#EF304D" size="2x" />
         </StyledLink>
-        <Title>{post.title.rendered}</Title>
+        <Title>{title}</Title>
       </Container>
     </>
   );

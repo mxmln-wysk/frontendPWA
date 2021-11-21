@@ -1,3 +1,5 @@
+import getPageLink from "./packages/mars-theme/src/helper/getPageLink";
+
 const settings = {
   "name": "frontendpwa",
   "state": {
@@ -15,11 +17,11 @@ const settings = {
           "menu": [
             [
               "Today",
-              "/07-11-2021/"
+              getPageLink('today'),
             ],
             [
               "Tomorrow",
-              "/08-11-2021/"
+              getPageLink('yesterday'),
             ],
           ],
           "featured": {

@@ -1,19 +1,13 @@
 import { styled, connect } from "frontity";
+import GoBack from "./goBack";
+
 
 const description404 = (
   <>
-    That page can’t be found{" "}
+    There is no Content (yet){" "}
     <span role="img" aria-label="confused face">
       😕
     </span>
-  </>
-);
-
-const description = (
-  <>
-    Don&apos;t panic! Seems like you encountered an error. If this persists,
-    <a href="https://community.frontity.org"> let us know </a> or try refreshing
-    your browser.
   </>
 );
 
@@ -21,14 +15,14 @@ const description = (
 const Page404 = ({ state }) => {
   const data = state.source.get(state.router.link);
 
-  const title = "Oops! Something went wrong";
-  const title404 = "Oops! 404";
+  const title404 = "Oops!";
 
   return (
-    <Container>
-      <Title>{data.is404 ? title404 : title}</Title>
-      <Description>{data.is404 ? description404 : description}</Description>
-    </Container>
+      <Container>
+        <GoBack />
+        <Title>{data.is404 ? title404 : title}</Title>
+        <Description>{description404}</Description>
+      </Container>
   );
 };
 
@@ -45,12 +39,12 @@ const Title = styled.h1`
   margin: 0;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: rgba(12, 17, 43);
+  color: #f0f8ff;
   font-size: 4em;
 `;
 
 const Description = styled.div`
   line-height: 1.6em;
-  color: rgba(12, 17, 43, 0.8);
+  color: #f0f8ff;
   margin: 24px 0;
 `;
