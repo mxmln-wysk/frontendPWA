@@ -3,6 +3,7 @@ import { connect, styled } from "frontity";
 import Link from "./link";
 import List from "./list";
 import FeaturedMedia from "./featured-media";
+import colors from "../helper/colors";
 
 const Post = ({ state, actions, libraries }) => {
   const data = state.source.get(state.router.link);
@@ -51,12 +52,34 @@ const Content = styled.div`
   * {
     max-width: 100%;
   }
-
-  details{
-    background-color:#1F1F1F;
-    border-radius: 10px;
+  
+  summary{
+    background-color: ${colors.overlay2};
+    border-radius: 0.5rem;
     padding: 0.5rem;
+    box-shadow: black 5px 5px 10px;
+    z-index: 200;
+  }
+  
+  details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -100px}
+    45%   {opacity: 0;}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+  
+  details{
+    background-color:${colors.overlay};
+    border-radius: 10px ;
     margin: 0.5rem;
+    box-shadow: black 5px 5px 10px;
+    transition: all 1s ease-out;
+    div{
+      padding: 0.5rem;
+    }
   }
   p {
     line-height: 1.6em;
@@ -85,32 +108,7 @@ const Content = styled.div`
   }
 
   a {
-    color: rgb(31, 56, 197);
+    color: ${colors.font};
     text-decoration: underline;
-  }
-  /* WordPress Core Align Classes */
-
-  @media (min-width: 420px) {
-    img.aligncenter,
-    img.alignleft,
-    img.alignright {
-      width: auto;
-    }
-
-    .aligncenter {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .alignright {
-      float: right;
-      margin-left: 24px;
-    }
-
-    .alignleft {
-      float: left;
-      margin-right: 24px;
-    }
   }
 `;

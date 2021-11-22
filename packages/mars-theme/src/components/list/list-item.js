@@ -1,5 +1,8 @@
 import { connect, styled } from "frontity";
 import Link from "../link";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import colors from "../../helper/colors";
 
 
 const Item = ({ item }) => {
@@ -7,7 +10,11 @@ const Item = ({ item }) => {
   return (
     <article>
       <Link link={item.link}>
-        <Title dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
+          <Title>
+              {item.title.rendered+" "}
+              <FontAwesomeIcon icon={faArrowRight} color={colors.font} size="xs" />
+          </Title>
+
       </Link>
     </article>
   );

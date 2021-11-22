@@ -7,7 +7,8 @@ import Loading from "./loading";
 import Title from "./title";
 import PageError from "./page-error";
 import GoBack from "./goBack";
-
+import colors from "../helper/colors";
+import Oxanium from "../font/Oxanium-VariableFont_wght.ttf";
 const Theme = ({ state }) => {
   const data = state.source.get(state.router.link);
   console.log(data);
@@ -46,16 +47,24 @@ export default connect(Theme);
 
 const globalStyles = css`
   body {
-    color: #CACCCF;
+    font-family = Oxanium;
+    color: ${colors.font};
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #111b30;
+    font-family:Oxanium;
+    background-color: ${colors.background};
   }
+  
   a,
   a:visited {
     color: inherit;
     text-decoration: none;
+  }
+  @font-face {
+    font-family: "Oxanium";
+    font-style: normal;
+    font-weight: normal;
+    font-display: fallback;
+    src: url("${Oxanium}") format("truetype");
   }
 `;
 
@@ -63,7 +72,8 @@ const HeadContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #EF304D;
+  background-color: ${colors.primary};
+  box-shadow: black 0px 5px 10px;
 `;
 
 const Main = styled.div`

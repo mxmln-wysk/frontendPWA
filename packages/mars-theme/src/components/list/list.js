@@ -1,6 +1,7 @@
 import { connect, styled } from "frontity";
 import Item from "./list-item";
 import Pagination from "./pagination";
+import colors from "../../helper/colors";
 
 const List = ({ state }) => {
   const data = state.source.get(state.router.link);
@@ -27,5 +28,6 @@ const Container = styled.section`
   margin: 1rem;
   padding: 1rem;
   border-radius: 10px;
-  background-color: #1E1E1E;
+  background-color: ${colors.overlay};
+  box-shadow: black 5px 5px 10px;
 `;

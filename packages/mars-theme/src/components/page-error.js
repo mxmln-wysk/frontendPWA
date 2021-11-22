@@ -1,5 +1,6 @@
 import { styled, connect } from "frontity";
 import GoBack from "./goBack";
+import colors from "../helper/colors";
 
 
 const description404 = (
@@ -39,12 +40,12 @@ const Title = styled.h1`
   margin: 0;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #f0f8ff;
+  color: ${colors.font};
   font-size: 4em;
 `;
 
 const Description = styled.div`
   line-height: 1.6em;
-  color: #f0f8ff;
+  color: ${colors.font};
   margin: 24px 0;
 `;

@@ -6,9 +6,9 @@ const Header = ({ state }) => {
   return (
     <>
       <Container>
-        <img src="https://dormapfad.de/Media/Atidna.png" />
+        <img src="https://dormapfad.de/Media/Atidna.png"  alt={'Atidna Logo'}/>
         <Title>{state.frontity.title}</Title>
-        <img src="https://dormapfad.de/Media/Mieke-Meier.png" />
+        <img src="https://dormapfad.de/Media/Mieke-Meier.png"  alt={'Mieke Meier Logo'}/>
       </Container>
       <Nav />
     </>
@@ -22,10 +22,11 @@ const Container = styled.div`
   max-width: 100%;
   box-sizing: border-box;
   padding: 0.5em;
-  color: #fff;
+  color: #f0f8ff;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   img{
     height: 75px; 
     width: auto;
@@ -36,13 +37,4 @@ const Title = styled.h2`
   margin: 0;
   margin-bottom: 16px;
   text-align: center;
-`;
-
-const Description = styled.h4`
-  margin: 0;
-  color: rgba(255, 255, 255, 0.7);
-`;
-
-const StyledLink = styled(Link)`
-  text-decoration: none;
 `;
