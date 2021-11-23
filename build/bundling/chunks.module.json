@@ -1,19 +1,19 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "47518fc38716087a65dc",
+  "hash": "d27a0ac0fbf3bbb47e0a",
   "publicPath": "/static/",
-  "outputPath": "/home/max/Documents/Weiterbildung/reactjs/youth-Exchange-PWA/build/static",
+  "outputPath": "/home/max/Dokumente/coding/IsraelAustausch/frontendPWA/build/static",
   "assetsByChunkName": {
     "frontendpwa": [
       "frontendpwa.module.js",
-      "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
+      "frontendpwa.d19a239df3a75e7ef439.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "37327e012ca8d8c7d56f.hot-update.json",
+      "name": "d19a239df3a75e7ef439.hot-update.json",
       "size": 53,
       "chunks": [],
       "chunkNames": [],
@@ -31,11 +31,11 @@
       "info": {
         "sourceFilename": "packages/mars-theme/src/font/Oxanium-VariableFont_wght.ttf"
       },
-      "emitted": false
+      "emitted": true
     },
     {
-      "name": "frontendpwa.37327e012ca8d8c7d56f.hot-update.js",
-      "size": 22087,
+      "name": "frontendpwa.d19a239df3a75e7ef439.hot-update.js",
+      "size": 21596,
       "chunks": [
         "frontendpwa"
       ],
@@ -50,7 +50,7 @@
     },
     {
       "name": "frontendpwa.module.js",
-      "size": 9121364,
+      "size": 9120579,
       "chunks": [
         "frontendpwa"
       ],
@@ -62,7 +62,7 @@
     },
     {
       "name": "list.module.js",
-      "size": 20139,
+      "size": 20091,
       "chunks": [
         "list"
       ],
@@ -70,7 +70,7 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -81,7 +81,7 @@
       ],
       "assets": [
         "frontendpwa.module.js",
-        "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
+        "frontendpwa.d19a239df3a75e7ef439.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -103,7 +103,7 @@
       "id": "frontendpwa",
       "files": [
         "frontendpwa.module.js",
-        "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
+        "frontendpwa.d19a239df3a75e7ef439.hot-update.js"
       ]
     },
     {
