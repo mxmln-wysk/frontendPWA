@@ -11,8 +11,6 @@ import colors from "../helper/colors";
 import Oxanium from "../font/Oxanium-VariableFont_wght.ttf";
 const Theme = ({ state }) => {
   const data = state.source.get(state.router.link);
-  console.log(data);
-  console.log(data.isHome);
 
   return (
     <>
