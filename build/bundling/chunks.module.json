@@ -1,28 +1,14 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "47518fc38716087a65dc",
+  "hash": "42284e57b72d60cfee92",
   "publicPath": "/static/",
   "outputPath": "/home/max/Documents/Weiterbildung/reactjs/youth-Exchange-PWA/build/static",
   "assetsByChunkName": {
-    "frontendpwa": [
-      "frontendpwa.module.js",
-      "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
-    ],
+    "frontendpwa": "frontendpwa.module.js",
     "list": "list.module.js"
   },
   "assets": [
-    {
-      "name": "37327e012ca8d8c7d56f.hot-update.json",
-      "size": 53,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "fonts/Oxanium-VariableFont_wght.ttf",
       "size": 43112,
@@ -30,21 +16,6 @@
       "chunkNames": [],
       "info": {
         "sourceFilename": "packages/mars-theme/src/font/Oxanium-VariableFont_wght.ttf"
-      },
-      "emitted": false
-    },
-    {
-      "name": "frontendpwa.37327e012ca8d8c7d56f.hot-update.js",
-      "size": 22087,
-      "chunks": [
-        "frontendpwa"
-      ],
-      "chunkNames": [
-        "frontendpwa"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
       },
       "emitted": false
     },
@@ -80,8 +51,7 @@
         "frontendpwa"
       ],
       "assets": [
-        "frontendpwa.module.js",
-        "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
+        "frontendpwa.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -102,8 +72,7 @@
     {
       "id": "frontendpwa",
       "files": [
-        "frontendpwa.module.js",
-        "frontendpwa.37327e012ca8d8c7d56f.hot-update.js"
+        "frontendpwa.module.js"
       ]
     },
     {

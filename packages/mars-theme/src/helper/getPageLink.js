@@ -8,6 +8,6 @@ const getPageLink = (day) => {
           date = new Date();
           date.setDate(date.getDate() + 1);
     }
-    return('/'+date.getDate()+'-'+(date.getMonth() + 1)+'-'+(date.getFullYear().toString().substr(-2))+'/');
+    return('/0'+date.getDate()+'-'+(date.getMonth() + 1)+'-'+(date.getFullYear().toString().substr(-2))+'/');
   }
 export default getPageLink;  
